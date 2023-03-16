@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D6D85E0D-A31F-3021-9A3A-9482C869621D" name="TB_SENSOR">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 21:53:35 UTC</createdTime>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<engineerTo>
+<item key="26F57EAB-4199-9E82-E810-AF31D04069AA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_sensor" id="00D8C558-258E-41A6-75E6-159520072074">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 21:54:02 UTC</createdTime>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<engineerTo>
+<item key="26F57EAB-4199-9E82-E810-AF31D04069AA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_localizacao" id="7804597C-F260-19BA-AA8A-6C9B9CE2B61F">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 21:54:23 UTC</createdTime>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<engineerTo>
+<item key="26F57EAB-4199-9E82-E810-AF31D04069AA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp_sensor" id="B74C8BA0-FEE2-6408-48E3-544BD90DAA6C">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 21:55:55 UTC</createdTime>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<engineerTo>
+<item key="26F57EAB-4199-9E82-E810-AF31D04069AA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_instalacao" id="4B86D665-70E9-C11F-2BAC-6A85B5D3226F">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 21:56:16 UTC</createdTime>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<engineerTo>
+<item key="26F57EAB-4199-9E82-E810-AF31D04069AA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0A61BA40-425E-AEFD-C705-D76F34DAB060" name="TB_SENSOR PK">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 21:54:20 UTC</createdTime>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<engineerTo>
+<item key="26F57EAB-4199-9E82-E810-AF31D04069AA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>00D8C558-258E-41A6-75E6-159520072074</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

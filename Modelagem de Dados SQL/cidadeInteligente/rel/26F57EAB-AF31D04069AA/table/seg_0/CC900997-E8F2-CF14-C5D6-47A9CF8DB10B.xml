@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC900997-E8F2-CF14-C5D6-47A9CF8DB10B" name="TB_SENSOR">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 22:14:19 UTC</createdTime>
+<generatorID>D6D85E0D-A31F-3021-9A3A-9482C869621D</generatorID>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sensor" id="7612C2AC-5380-E68C-9793-688B4BE40EE8">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 22:14:19 UTC</createdTime>
+<generatorID>00D8C558-258E-41A6-75E6-159520072074</generatorID>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_localizacao" id="5898F6AD-44C3-6F86-6BEF-89626EB75CCF">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 22:14:19 UTC</createdTime>
+<generatorID>7804597C-F260-19BA-AA8A-6C9B9CE2B61F</generatorID>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_sensor" id="C0A5BE2A-A731-8EB3-8217-70125436D135">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 22:14:19 UTC</createdTime>
+<generatorID>B74C8BA0-FEE2-6408-48E3-544BD90DAA6C</generatorID>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_instalacao" id="8F1A3D5F-7EE9-B6C6-B99D-FE5F02592407">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 22:14:19 UTC</createdTime>
+<generatorID>4B86D665-70E9-C11F-2BAC-6A85B5D3226F</generatorID>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12ADCD65-07D1-DA61-B64A-980F34B30B9D" name="TB_SENSOR_PK">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 22:14:19 UTC</createdTime>
+<generatorID>0A61BA40-425E-AEFD-C705-D76F34DAB060</generatorID>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7612C2AC-5380-E68C-9793-688B4BE40EE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

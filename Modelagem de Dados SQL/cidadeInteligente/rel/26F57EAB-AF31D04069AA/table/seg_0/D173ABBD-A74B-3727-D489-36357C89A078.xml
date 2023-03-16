@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D173ABBD-A74B-3727-D489-36357C89A078" name="TB_TRAFEGO">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 22:14:19 UTC</createdTime>
+<generatorID>B4772938-778F-E232-D6E5-8C6F624A16DD</generatorID>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_do_sensor" id="E3765D1F-D511-3518-B379-D9A4F6180BDE">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 22:14:19 UTC</createdTime>
+<generatorID>FDB3C132-EE5A-1E77-CDB3-74E7618E4BA9</generatorID>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hr_leitura" id="41AD3CBB-7EEE-7112-6325-A6AB4E37B77F">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 22:14:19 UTC</createdTime>
+<generatorID>3420C264-9BCD-A8D6-D9CC-854496F434DD</generatorID>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_vol_trafego" id="9AC0BE3E-6476-4723-FA5B-9B9625D0B480">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 22:14:19 UTC</createdTime>
+<generatorID>1B6E3E74-FA84-2A72-B622-426D54456E87</generatorID>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_SENSOR_id_sensor" id="E9175C59-E21B-5E26-F17C-2F5B58BEE647">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 22:14:19 UTC</createdTime>
+<generatorID>4AB60F1A-781D-2FC1-7BFE-A6C30AD5F08E</generatorID>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8216E88-0CE3-90DD-ADD6-72F11A5FD9C7" referredColumn="7612C2AC-5380-E68C-9793-688B4BE40EE8"/>
+</associations>
+</Column>
+<Column name="TB_EVENTO_id_evento" id="F9589BDF-6D95-BAF4-D945-3C1F74A5982F">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 22:14:19 UTC</createdTime>
+<generatorID>21BD19F6-D83C-9506-1648-1170C23F9B43</generatorID>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="917882CA-24C7-92F9-C6CC-BA1F11F2C5C3" referredColumn="A5DB6475-C627-2C81-219C-892FF12319FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5462016-56E5-61E2-E1CD-A712A9393E9D" name="TB_TRAFEGO_PK">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 22:14:19 UTC</createdTime>
+<generatorID>BCC0FBD6-17E3-6837-274A-ABA40456327B</generatorID>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3765D1F-D511-3518-B379-D9A4F6180BDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49BE6954-F53F-BF99-FD1A-6CB6E5E83F1B" name="TB_TRAFEGO__IDX">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 22:14:19 UTC</createdTime>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5EA44310-ED60-8534-CAE1-4AEA0C8C54BC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F9589BDF-6D95-BAF4-D945-3C1F74A5982F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A5C9EAD-49FE-85C3-1490-6951CEE0BDA3" name="TB_TRAFEGO_TB_SENSOR_FK">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 22:14:19 UTC</createdTime>
+<generatorID>1EED8A8C-3128-2958-45C5-7FD334D75308</generatorID>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9175C59-E21B-5E26-F17C-2F5B58BEE647"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3ADD4A7-2280-1BC7-EC31-CCFC064C8E39" name="TB_TRAFEGO_TB_EVENTO_FK">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 22:14:19 UTC</createdTime>
+<generatorID>5EA44310-ED60-8534-CAE1-4AEA0C8C54BC</generatorID>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9589BDF-6D95-BAF4-D945-3C1F74A5982F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="cidadeInteligente" id="1ED372B9-09DF-54D7-B2ED-C972F821D98B" version="3.5">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 21:53:20 UTC</createdTime>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1ED372B9-09DF-54D7-B2ED-C972F821D98B</designId>
+</OSDM_Design>

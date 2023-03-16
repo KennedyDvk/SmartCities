@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CC751CDD-59B9-0FC5-80D5-769EAEC6B718" containerWithKeyObject="F422C6DC-20C1-E881-8925-6F6DFEC2527D" localFKIndex="921A5987-6871-1977-13FA-ED5A1DE3E7BC" name="TB_EVENTO_TB_TRAFEGO_FK">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 22:14:19 UTC</createdTime>
+<generatorID>5EA44310-ED60-8534-CAE1-4AEA0C8C54BC</generatorID>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<referredTableLongName>TB_TRAFEGO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D173ABBD-A74B-3727-D489-36357C89A078</referredTableID>
+<keyObject>B5462016-56E5-61E2-E1CD-A712A9393E9D</keyObject>
+<referredKeyID>B5462016-56E5-61E2-E1CD-A712A9393E9D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_do_sensor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

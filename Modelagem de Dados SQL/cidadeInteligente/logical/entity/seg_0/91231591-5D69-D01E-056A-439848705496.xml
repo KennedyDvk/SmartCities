@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="91231591-5D69-D01E-056A-439848705496" name="TB_SERV_PUBLICO">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 22:03:32 UTC</createdTime>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<engineerTo>
+<item key="26F57EAB-4199-9E82-E810-AF31D04069AA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_servico" id="0463085D-AD9E-F74D-D038-22CD62273035">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 22:03:52 UTC</createdTime>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<engineerTo>
+<item key="26F57EAB-4199-9E82-E810-AF31D04069AA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo_serv" id="BBBABC1B-023A-3F3F-44A5-55B3B5351D4E">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 22:04:12 UTC</createdTime>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<engineerTo>
+<item key="26F57EAB-4199-9E82-E810-AF31D04069AA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_local_serv" id="74F7E1E0-BB7B-9481-F073-CF493CB8F063">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 22:04:37 UTC</createdTime>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<engineerTo>
+<item key="26F57EAB-4199-9E82-E810-AF31D04069AA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_instalacao" id="E0262281-1CF6-A2CC-BB59-299712201F49">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 22:05:04 UTC</createdTime>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<engineerTo>
+<item key="26F57EAB-4199-9E82-E810-AF31D04069AA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_evento" id="C9DD872C-8980-7FD1-BA06-BA1DA7A28F3F">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 22:10:41 UTC</createdTime>
+<generatorID>22F75867-1CC1-4FB6-3C04-9808FDBD6170</generatorID>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<engineerTo>
+<item key="26F57EAB-4199-9E82-E810-AF31D04069AA" value="true"/>
+</engineerTo>
+<referedAttribute>FA282D89-FC59-DC69-E934-233D8282DF19</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F5B7AA4D-552D-8819-975B-AFAF4E08F7F2" name="TB_SERV_PUBLICO PK">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-06 22:04:09 UTC</createdTime>
+<ownerDesignName>cidadeInteligente</ownerDesignName>
+<engineerTo>
+<item key="26F57EAB-4199-9E82-E810-AF31D04069AA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0463085D-AD9E-F74D-D038-22CD62273035</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
